@@ -1,7 +1,17 @@
 /* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
 
 body {
     margin: 0px;
+    font-family: roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    width: 100px;
+    height: 28px;
+    border-radius: 6px;
+    border-style: none;
+    font-weight: 500;
 }
 
 .hero {
@@ -9,7 +19,42 @@ body {
     color: #f9faf8;
 }
 
+.header {
+    /* width: 800px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px
+}
+
+.hero-main p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #E5E7EB;
+}
+
+.hero button {
+    background-color: #3882F6;
+    color: white;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 900;
 }
+
