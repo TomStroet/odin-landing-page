@@ -1,0 +1,15 @@
+/* styles.css */
+
+body {
+    margin: 0px;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
