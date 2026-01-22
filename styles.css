@@ -3,7 +3,7 @@
 
 body {
     margin: 0px;
-    font-family: roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: roboto, Verdana, sans-serif;
 }
 
 button {
@@ -14,13 +14,17 @@ button {
     font-weight: 500;
 }
 
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .hero {
     background-color: #1f2937;
     color: #f9faf8;
 }
 
 .header {
-    /* width: 800px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
