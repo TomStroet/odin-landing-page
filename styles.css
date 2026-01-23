@@ -4,6 +4,12 @@
 body {
     margin: 0px;
     font-family: roboto, Verdana, sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
 }
 
 button {
@@ -12,11 +18,7 @@ button {
     border-radius: 6px;
     border-style: none;
     font-weight: 500;
-}
-
-.container {
-    width: 800px;
-    margin: 0 auto;
+    padding: 0;
 }
 
 .hero {
@@ -30,23 +32,6 @@ button {
     align-items: center;
 }
 
-.hero-main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px
-}
-
-.hero-main p {
-    font-size: 18px;
-    font-weight: 300;
-    color: #E5E7EB;
-}
-
-.hero button {
-    background-color: #3882F6;
-    color: white;
-}
 ul {
     list-style: none;
     display: flex;
@@ -57,8 +42,42 @@ a {
     text-decoration: none;
 }
 
+.hero-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 60px;
+    padding: 100px 0;
+}
+
+.hero-main p,
+.header a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-img {
+    background-color: grey;
+    /* padding: 50px; */
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero button {
+    background-color: #3882F6;
+    color: white;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
 }
 
