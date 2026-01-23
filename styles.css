@@ -82,3 +82,31 @@ h1 {
 }
 
 /* Info section */
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900px;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.info-section {
+    margin: 30px 60px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.info-img {
+    border: #3882F6;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15px;
+    aspect-ratio: 1/1;
+}    
+
+.info-text {
+    color: rgb(78, 78, 78);
+    text-align: center;
+    padding-top: 8px;
+}
